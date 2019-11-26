@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+
+@font-face{
+font-family:'DOSGothic';
+src:url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/DOSGothic.woff') format('woff');
+font-weight:normal;
+font-style:normal;
+}
+
+@font-face
+{font-family:'S-CoreDream-3Light';
+src:url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+font-weight:normal;
+font-style:normal;
+}
+
+body{
+background-image:url('wallpaper.png');
+font-family:DOSgothic,sans-serif, Arial;
+text-align:center;
+width:95%;
+font-size:115%;
+}
+
+.logo{
+float:left;
+margin:1.5% 0 0 3%;
+box-sizing:border-box;
+}
+
+.main{
+float:right;
+box-sizing:border-box;
+}
+
+/*메뉴 css*/
+.menu{
+float:left;
+color:white;
+text-shadow: 0px 3px 0px #a6628c;
+padding:3%;
+clear:left;
+margin:7.7% 0 0 0;
+}
+
+a:link, a:visited{
+color:white;
+text-decoration:none;
+}
+
+a:hover, a:active{
+color:#f1cfe1;
+text-decoration:none;
+font-weight:bold;
+}
+
+.top{
+list-style:none;
+margin:0px;
+padding:0px;
+text-align:left;
+}
+
+.sub1{
+list-style:none;
+margin-left:10px;
+padding:0px;
+text-align:left;
+}
+
+.sub2 ,.sub3 ,.sub4 ,.sub5{
+list-style:none;
+margin-left:15px;
+padding:0px;
+text-align:left;
+}
+
+.menu ul.top li ,.sub1 li{
+position:relative;
+}
+
+.menu ul.sub1 ,.menu ul.sub2 ,.menu ul.sub3 ,.menu ul.sub4 ,.menu ul.sub5{
+display:none;
+}
+
+.menu ul.top li:hover .sub1{
+display:block;
+position:absoulute;
+}
+
+.menu ul.sub1 li:hover ul.sub2, .menu ul.sub1 li:hover ul.sub3, .menu ul.sub1 li:hover ul.sub4, .menu ul.sub1 li:hover ul.sub5{
+display:block;
+position:absoulute;
+}
+/*메뉴 css 끝!*/
+
+/*내용 부분 css*/
+.content{
+background-color:rgba(255,255,255,0.75);
+border-radius:30px;
+color:#402435;
+font-family:'S-CoreDream-3Light',sans-serif, Arial;
+font-weight:bold;
+font-size:71%;
+float:right;
+width:67%;
+margin:2% 1% 1% 1%;
+padding:3% 0 3% 2%;
+overflow:auto;
+box-sizing:border-box;
+}
+/*내용 부분 css 끝!*/
+
+/* 내용 Dream, Bucket List 따로 css*/
+.contentfont{
+font-size:152%;
+font-family:DOSgothic,sans-serif, Arial;
+color:#e2267b;
+font-weight:bold;
+}
+/*내용 Dream, Bucket List 따로 css 끝!*/
+
+/*WELCOME TO OUR PLANET css*/
+.footer{
+clear:both;
+padding-top:2%;
+font-size:75%;
+font-weight:bold;
+color:gray;
+box-sizing:border-box;
+}
+/*WELCOME TO OUR PLANET css 끝!*/
+
+
+</style>
+</head>
+
+<body>
+
+
+<img class="logo" src="logo1.png" width=10% height=10%>
+
+<!--메뉴 부분 html-->
+<div class="menu">
+<i>
+<ul class="top">
+ <li><a href="#">INTRODUCE ME</a>
+  <ul class="sub1">
+   <li><a href="#">Ju Young</a>
+    <ul class="sub2">
+     <li><a href="#">Dream</a></li>
+     <li><a href="#">Bucket List</a></li>
+     <li><a href="#">Book Review</a></li>
+   </li>
+    </ul>
+   <li><a href="#">Ji Yeon</a>
+    <ul class="sub3">
+     <li><a href="#">Dream</a></li>
+     <li><a href="#">Bucket List</a></li>
+     <li><a href="#">Book Review</a></li>
+   </li>
+    </ul>
+   <li><a href="#">Ji Eun</a>
+    <ul class="sub4">
+     <li><a href="#">Dream</a></li>
+     <li><a href="#">Bucket List</a></li>
+     <li><a href="#">Book Review</a></li>
+   </li>
+    </ul>
+   <li><a href="#">Se In</a>
+    <ul class="sub5">
+     <li><a href="#">Dream</a></li>
+     <li><a href="#">Bucket List</a></li>
+     <li><a href="#">Book Review</a></li>
+   </li>
+    </ul>
+   </ul>
+ </li>
+<br>
+<br>
+ <li><a href="#">PORTFOLIO</a>
+  <ul class="sub1">
+   <li><a href="#">Ju Young</a></li>
+   <li><a href="#">Ji Yeon</a></li>
+   <li><a href="#">Ji Eun</a></li>
+   <li><a href="#">Se In</a></li>
+  </ul>
+ </li>
+<br>
+<br>
+ <li><a href="#">MIS PAGE</a>
+  <ul class="sub1">
+   <li><a href="#">2019 IT Issue</a></li>
+   <li><a href="#">What is MIS?</a></li>
+  </ul>
+ </li>
+<br>
+<br>
+ <li><a href="#">VISITOR'S BOOK</a></li>
+</ul>
+</i>
+</div>
+<!--메뉴 부분 html 끄읏-->
+
+<!--내용 부분 html-->
+<div class="content">
+<p class="contentfont"><i>°˖✧Dream✧˖°</i></p>
+<p>세계의 동물들을 보호하는 사람이 되기</p>
+<br>
+<p class="contentfont"><i>°˖✧Bucket List✧˖°</i></p>
+<ol style="text-align:left">
+ <li>남극가서 하프물범이랑 하이파이브하기</li>
+ <br>
+ <li>사교성 좋은 카피바라랑 친해지기</li>
+ <br>
+ <li>호주가서 쿼카랑 셀카찍기</li>
+ <br>
+ <li>에드시런 콘서트 가기</li>
+ <br>
+ <li>캐나다 퀘백 주 가서 단풍 줍고 코팅하기</li>
+ <br>
+ <li>둥둥</li>
+ <br>
+ <li>둥둥둥</li>
+</ol>
+</div>
+<!--내용 부분 html 끄읏-->
+
+<p class="footer">WELCOME TO OUR PLANET!</p>
+
+
+</body>
+</html>
