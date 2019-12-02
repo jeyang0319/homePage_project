@@ -1,0 +1,278 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+
+@font-face{font-family:'DungGeunMo';
+src:url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+font-weight:normal;
+font-style:normal;
+}
+
+@font-face
+{font-family:'S-CoreDream-3Light';
+src:url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+font-weight:normal;
+font-style:normal;
+}
+
+body{
+background-image:url('wallpaper.png');
+background-size:cover;
+font-family:DungGeunMo,sans-serif, Arial;
+text-align:center;
+width:95%;
+font-size:118%;
+}
+
+.logo{
+float:left;
+margin:1.5% 0 0 3%;
+box-sizing:border-box;
+}
+
+.topimage{
+float:left;
+width:77%;
+margin:1% 0 0 7%;
+box-sizing:border-box;
+}
+
+.book{
+float:left;
+box-sizing:border-box;
+width:30%;
+height:40%;
+margin-left:4%;
+}
+
+.review{
+float:right;
+width:60%;
+margin-right:5%;
+box-sizing:border-box;
+overflow:auto;
+text-align:left;
+}
+
+
+.main{
+float:right;
+box-sizing:border-box;
+}
+
+/*메뉴 css*/
+.menu{
+float:left;
+color:white;
+text-shadow: 0px 3px 0px #a6628c;
+padding:3%;
+clear:left;
+margin:4.5% 0 0 0;
+}
+
+a:link, a:visited{
+color:white;
+text-decoration:none;
+}
+
+a:hover, a:active{
+color:#f1cfe1;
+text-decoration:none;
+font-weight:bold;
+}
+
+.top{
+list-style:none;
+margin:0px;
+padding:0px;
+text-align:left;
+}
+
+.sub1{
+list-style:none;
+margin-left:10px;
+padding:0px;
+text-align:left;
+}
+
+.sub2{
+list-style:none;
+margin-left:15px;
+padding:0px;
+text-align:left;
+}
+
+.menu ul.top li ,.sub1 li{
+position:relative;
+}
+
+.menu ul.sub1 ,.menu ul.sub2{
+display:none;
+}
+
+.menu ul.top li:hover .sub1{
+display:block;
+position:absoulute;
+}
+
+.menu ul.sub1 li:hover .sub2{
+display:block;
+position:absoulute;
+}
+/*메뉴 css 끝!*/
+
+/*내용 부분 css*/
+.content{
+background-color:rgba(255,255,255,0.75);
+border-radius:35px;
+color:#402435;
+font-family:'S-CoreDream-3Light',sans-serif, Arial;
+font-weight:bold;
+font-size:71%;
+float:right;
+width:67%;
+margin:2% 1% 1% 1%;
+padding:3% 0 3% 2%;
+overflow:auto;
+box-sizing:border-box;
+}
+/*내용 부분 css 끝!*/
+
+/* 내용 Dream, Bucket List 따로 css*/
+.contentfont{
+font-size:155%;
+font-family:DungGeunMo,sans-serif, Arial;
+text-shadow: 0px 2px 0px white;
+color:#e2267b;
+font-weight:bold;
+}
+/*내용 Dream, Bucket List 따로 css 끝!*/
+
+/*WELCOME TO OUR PLANET css*/
+.footer{
+clear:both;
+padding-top:2%;
+font-size:75%;
+font-weight:bold;
+color:gray;
+box-sizing:border-box;
+}
+/*WELCOME TO OUR PLANET css 끝!*/
+
+
+</style>
+</head>
+
+<body>
+
+
+<a href="메인화면.html"><img class="logo" src="logo2.png" width=10% height=10%></a>
+
+<img class="topimage" src="top.png">
+
+<!--메뉴 부분 html-->
+<div class="menu">
+<i>
+<ul class="top">
+ <li><a href="#">INTRODUCE ME</a>
+  <ul class="sub1">
+   <li><a href="#">Ju Young</a>
+    <ul class="sub2">
+     <li><a href="주영 드림.html">Dream</a></li>
+     <li><a href="주영 버킷.html">Bucket List</a></li>
+   </li>
+    </ul>
+   <li><a href="#">Ji Yeon</a>
+    <ul class="sub2">
+     <li><a href="지연 드림.html">Dream</a></li>
+     <li><a href="지연 버킷.html">Bucket List</a></li>
+   </li>
+    </ul>
+   <li><a href="#">Ji Eun</a>
+    <ul class="sub2">
+     <li><a href="지은 드림.html">Dream</a></li>
+     <li><a href="지은 버킷.html">Bucket List</a></li>
+   </li>
+    </ul>
+   <li><a href="#">Se In</a>
+    <ul class="sub2">
+     <li><a href="세인 드림.html">Dream</a></li>
+     <li><a href="세인 버킷.html">Bucket List</a></li>
+   </li>
+    </ul>
+   </ul>
+ </li>
+<br>
+<br>
+ <li><a href="#">PORTFOLIO</a>
+  <ul class="sub1">
+   <li><a href="포폴_주영.html">Ju Young</a></li>
+   <li><a href="포폴_지연.html">Ji Yeon</a></li>
+   <li><a href="포폴_지은.html">Ji Eun</a></li>
+   <li><a href="포폴_세인.html">Se In</a></li>
+  </ul>
+ </li>
+<br>
+<br>
+ <li><a href="#">MIS PAGE</a>
+  <ul class="sub1">
+   <li><a href="MIS Page.Issue.html">2019 IT Issue</a></li>
+   <li><a href="MIS Page.What.html">What is MIS?</a></li>
+  </ul>
+ </li>
+<br>
+<br>
+ <li><a style=color:#ffa3d5; href="#">BOOK REVIEW</a>
+  <ul class="sub1">
+   <li><a href="북리뷰_주영.html">Ju Young</a></li>
+   <li><a href="북리뷰_지연.html">Ji Yeon</a></li>
+   <li><a style=color:#ffa3d5; href="북리뷰_지은.html">Ji Eun</a></li>
+   <li><a href="북리뷰_세인.html">Se In</a></li>
+  </ul>
+ </li>
+<br>
+<br>
+ <li><a href="#">SPACE ADVENTURE</a>
+  <ul class="sub1">
+   <li><a href="여행_주영.html">Ju Young</a></li>
+   <li><a href="여행_지연.html">Ji Yeon</a></li>
+   <li><a href="여행_지은.html">Ji Eun</a></li>
+   <li><a href="여행_세인.html">Se In</a></li>
+  </ul>
+ </li>
+</ul>
+</i>
+</div>
+<!--메뉴 부분 html 끄읏-->
+
+<!--내용 부분 html-->
+<div class="content">
+<img class="book" src="수학무기.jpg">
+
+<br>
+<h2 class="contentfont"><i>°˖✧대량살상 수학무기✧˖°</i></h2>
+<p>
+<br>
+이 책은 빅데이터가 중요시되는 요즘의 정보 사회에서 빅데이터와,<br>
+이를 활용하여 만들어진 여러 모형들이 긍정적인 측면만 있는 것이 아니라<br>
+이 책의 제목처럼 정말로 대량살상무기가 될 수도 있다는 것에 신선한 충격을 줬다.
+<br><br>
+지금의 정보 사회에서는 빅데이터라는 것이 어느 한 분야에서만 필수로<br>
+요구되거나 필요한 것이 아니라, 거의 모든 분야에서 필수로 요구된다.
+<br><br>
+그래서 많은 부분에서 빅데이터를 분석하여 각각의 모형을 만들어서 이용하는데,<br>
+이것이 책에서 작가가 말한 것처럼 어떤 부분에 대해 치명적인 약점을 확대, 재생산<br>
+할 수 있고, 또한 악순환이 지속되는 데에 일조할 수도 있다는 부분에서<br>
+정말 많은 생각이 들었다. 
+</p>
+</div>
+<br>
+<!--내용 부분 html 끄읏-->
+
+<p class="footer">WELCOME TO OUR PLANET!</p>
+
+
+</body>
+</html>
