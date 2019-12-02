@@ -1,0 +1,263 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+
+@font-face{font-family:'DungGeunMo';
+src:url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+font-weight:normal;
+font-style:normal;
+}
+
+@font-face
+{font-family:'S-CoreDream-3Light';
+src:url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+font-weight:normal;
+font-style:normal;
+}
+
+body{
+background-image:url('wallpaper.png');
+background-size:cover;
+font-family:DungGeunMo,sans-serif, Arial;
+text-align:center;
+width:95%;
+font-size:118%;
+}
+
+.logo{
+float:left;
+margin:1.5% 0 0 3%;
+box-sizing:border-box;
+}
+
+.topimage{
+float:left;
+width:77%;
+margin:1% 0 0 7%;
+box-sizing:border-box;
+}
+
+.main{
+float:right;
+box-sizing:border-box;
+}
+
+/*메뉴 css*/
+.menu{
+float:left;
+color:white;
+text-shadow: 0px 3px 0px #a6628c;
+padding:3%;
+clear:left;
+margin:4.5% 0 0 0;
+}
+
+a:link, a:visited{
+color:white;
+text-decoration:none;
+}
+
+a:hover, a:active{
+color:#f1cfe1;
+text-decoration:none;
+font-weight:bold;
+}
+
+.top{
+list-style:none;
+margin:0px;
+padding:0px;
+text-align:left;
+}
+
+.sub1{
+list-style:none;
+margin-left:10px;
+padding:0px;
+text-align:left;
+}
+
+.sub2{
+list-style:none;
+margin-left:15px;
+padding:0px;
+text-align:left;
+}
+
+.menu ul.top li ,.sub1 li{
+position:relative;
+}
+
+.menu ul.sub1 ,.menu ul.sub2{
+display:none;
+}
+
+.menu ul.top li:hover .sub1{
+display:block;
+position:absoulute;
+}
+
+.menu ul.sub1 li:hover .sub2{
+display:block;
+position:absoulute;
+}
+/*메뉴 css 끝!*/
+
+/*내용 부분 css*/
+.content{
+background-color:rgba(255,255,255,0.75);
+border-radius:35px;
+color:#402435;
+font-family:'S-CoreDream-3Light',sans-serif, Arial;
+font-weight:bold;
+font-size:71%;
+float:right;
+width:67%;
+margin:2% 1% 1% 1%;
+padding:3% 0 3% 2%;
+overflow:auto;
+box-sizing:border-box;
+}
+/*내용 부분 css 끝!*/
+
+/* 내용 Dream, Bucket List 따로 css*/
+.contentfont{
+font-size:155%;
+font-family:DungGeunMo,sans-serif, Arial;
+text-shadow: 0px 2px 0px white;
+color:#e2267b;
+font-weight:bold;
+}
+/*내용 Dream, Bucket List 따로 css 끝!*/
+
+/*WELCOME TO OUR PLANET css*/
+.footer{
+clear:both;
+padding-top:2%;
+font-size:75%;
+font-weight:bold;
+color:gray;
+box-sizing:border-box;
+}
+/*WELCOME TO OUR PLANET css 끝!*/
+
+
+</style>
+</head>
+
+<body>
+
+<a href="메인화면.html"><img class="logo" src="logo2.png" width=10% height=10%></a>
+
+<img class="topimage" src="top.png">
+
+<!--메뉴 부분 html-->
+<div class="menu">
+<i>
+<ul class="top">
+ <li><a href="#">INTRODUCE ME</a>
+  <ul class="sub1">
+   <li><a href="#">Ju Young</a>
+    <ul class="sub2">
+     <li><a href="주영 드림.html">Dream</a></li>
+     <li><a href="주영 버킷.html">Bucket List</a></li>
+   </li>
+    </ul>
+   <li><a href="#">Ji Yeon</a>
+    <ul class="sub2">
+     <li><a href="지연 드림.html">Dream</a></li>
+     <li><a href="지연 버킷.html">Bucket List</a></li>
+   </li>
+    </ul>
+   <li><a href="#">Ji Eun</a>
+    <ul class="sub2">
+     <li><a href="지은 드림.html">Dream</a></li>
+     <li><a href="지은 버킷.html">Bucket List</a></li>
+   </li>
+    </ul>
+   <li><a href="#">Se In</a>
+    <ul class="sub2">
+     <li><a href="세인 드림.html">Dream</a></li>
+     <li><a href="세인 버킷.html">Bucket List</a></li>
+   </li>
+    </ul>
+   </ul>
+ </li>
+<br>
+<br>
+ <li><a href="#">PORTFOLIO</a>
+  <ul class="sub1">
+   <li><a href="포폴_주영.html">Ju Young</a></li>
+   <li><a href="포폴_지연.html">Ji Yeon</a></li>
+   <li><a href="포폴_지은.html">Ji Eun</a></li>
+   <li><a href="포폴_세인.html">Se In</a></li>
+  </ul>
+ </li>
+<br>
+<br>
+ <li><a href="#">MIS PAGE</a>
+  <ul class="sub1">
+   <li><a href="MIS Page.Issue.html">2019 IT Issue</a></li>
+   <li><a href="MIS Page.What.html">What is MIS?</a></li>
+  </ul>
+ </li>
+<br>
+<br>
+ <li><a href="#">BOOK REVIEW</a>
+  <ul class="sub1">
+   <li><a href="북리뷰_주영.html">Ju Young</a></li>
+   <li><a href="북리뷰_지연.html">Ji Yeon</a></li>
+   <li><a href="북리뷰_지은.html">Ji Eun</a></li>
+   <li><a href="북리뷰_세인.html">Se In</a></li>
+  </ul>
+ </li>
+<br>
+<br>
+ <li><a style=color:#ffa3d5; href="#">SPACE ADVENTURE</a>
+  <ul class="sub1">
+   <li><a href="여행_주영.html">Ju Young</a></li>
+   <li><a href="여행_지연.html">Ji Yeon</a></li>
+   <li><a style=color:#ffa3d5; href="여행_지은.html">Ji Eun</a></li>
+   <li><a href="여행_세인.html">Se In</a></li>
+  </ul>
+ </li>
+</ul>
+</i>
+</div>
+<!--메뉴 부분 html 끄읏-->
+
+<!--내용 부분 html-->
+<div class="content">
+<p class="contentfont"><i>°˖✧영월, 삼척✧˖°</i></p>
+<img src="지은여행1.png" width=30% height=30%>
+<img src="지은여행2.png" width=33.5% height=30%>
+<img src="지은여행3.png" width=30.5% height=30%>
+<p>올해 여름이 정말 뜨거웠는데요, 저는 가장 더웠던 8월 초 가족들과 강원도로 1박2일 여행을 떠났습니다.<br>
+지금부터 가족들과 갔던 강원도의 영월과 삼척에 대해 소개하겠습니다!!
+<br><br>
+첫번째로 추천드릴 곳은 영월에 있는 ‘김삿삿 계곡’입니다.<br>
+정말 무더운 한여름이었지만 계곡에 발을 담그자 마자 온몸이 시원해지면서, 더워서 받았던 스트레스가 싹 날라갔습니다!!<br>
+역시 여름엔 계곡!!!!
+<br><br>
+다음으로 추천드릴 곳은 영월에 있는 ‘별마로 천문대’입니다. 이곳은 국내 시민 천문대로서는 최대 규모의 80cm급<br>
+반사 망원경이 설치되어 있고, 보조망원경 10대를 갖춘 슬라이딩 돔이 있습니다. 제가 갔던 날은 구름이 많이 껴 있어서<br>
+별을 많이 보지는 못했지만, 날씨가 좋은 날에 간다면 그 어떤 것보다도 가장 아름다울 것 같습니다!!
+<br><br>
+마지막으로 추천드릴 곳은 삼척에 있는 ‘환선굴’입니다.<br>
+이 주굴 길이는 약 3.3km이고, 총길이는 약 6.5km입니다. 환선굴을 포함한 대이리동굴지대는 천연기념물 제178호로<br>
+지정되어 있습니다. 정말 더운 한여름에 갔지만 동굴 안에 들어가보니, 정말 우리나라의 봄, 가을 날씨 정도로<br>
+쌀쌀해서 좋았습니다. 또한 종유석의 발달이 퇴폐적이나 윤회재생의 과정에 있는 것도 볼 수 있어서<br>
+정말 좋은 경험이었던 것 같습니다. 
+<br><br>
+저의 팁을 토대로 즐거운 여행하시길 바랍니다~!~!
+</p>
+</div>
+<!--내용 부분 html 끄읏-->
+
+<p class="footer">WELCOME TO OUR PLANET!</p>
+
+
+</body>
+</html>
